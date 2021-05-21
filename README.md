@@ -20,7 +20,7 @@ on board serial port and make the NMEA data available via the USB.
  
 <img height="400" src="/Pictures/IMG_0611.JPG" />
  
-SeaTalk is a serial interface that uses a 12 volt signal line. To interface this
+SeaTalk uses a 12 volt signal line. To interface this
 to the Arduino it must be converted to TTL level, this can be done using the
 circuit published by <a href="http://berreizeta.blogspot.com/2016/09/seatalk-arduino-interface-5v-ttl-for_19.html">Berreizeta</a>:
 
@@ -32,7 +32,7 @@ This can easily be built on Veroboard and the whole device assembled as:
  
 ## Software
 
-SeaTalk sends 9 bits for each transmitted character, 11 including start and stop bits. This is impossible to process with the usual Arduino hardware serial support so
+SeaTalk sends 9 data bits for each transmitted character, 11 including start and stop bits. This is impossible to process with the usual Arduino hardware serial support so
 use is made of a library supplied by <a href="https://forum.arduino.cc/u/nickgammon">Nick Gammon</a>. There is a post on the Arduino forum 
 <a href="https://forum.arduino.cc/t/mods-to-hardwareserial-to-handle-9-bit-data/89447">Mods to HardwareSerial to handle 9-bit data</a> that
 explains more. The most recent version of this HarwareSerial code can be found in the Source folder.
