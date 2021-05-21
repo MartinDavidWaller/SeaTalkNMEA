@@ -22,11 +22,11 @@ SeaTalk is a serial interface that uses a 12 volt signal line. To interface this
 to the Arduino it must be converted to TTL level, this can be done using the
 circuit published by <a href="http://berreizeta.blogspot.com/2016/09/seatalk-arduino-interface-5v-ttl-for_19.html">Berreizeta</a>:
 
-<img style="max-height:300px;" src="~/images/Projects/SeaTalk/SeaTalk_12v_TTL.JPG" />
+<img style="max-height:300px;" src="~/blob/main/Pictures/SeaTalk_12v_TTL.JPG" />
  
 This can easily be built on Veroboard and the whole device assembled as:
  
-<img style="max-height:300px;" src="~/images/Projects/SeaTalk/IMG_0612.JPG" />
+<img style="max-height:300px;" src="~/blob/main/Pictures/IMG_0612.JPG" />
  
 The Arduino is programmed via the USB connection and when connected to a SeaTalk 
 device can produce sentences such as:
