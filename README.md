@@ -30,7 +30,7 @@ This can easily be built on Veroboard and the whole device assembled as:
  
 <img height="400" src="/Pictures/IMG_0612.JPG" />
 
-Note the GND is connected to the Arduino GN pin and the DATA is connected to the Arduino RXI pin.
+The GND is connected to the Arduino GND pin and the DATA is connected to the Arduino RXI pin.
  
 ## Software
 
