@@ -29,6 +29,8 @@ circuit published by <a href="http://berreizeta.blogspot.com/2016/09/seatalk-ard
 This can easily be built on Veroboard and the whole device assembled as:
  
 <img height="400" src="/Pictures/IMG_0612.JPG" />
+
+Note the GND is connected to the Arduino GN pin and the DATA is connected to the Arduino RXI pin.
  
 ## Software
 
