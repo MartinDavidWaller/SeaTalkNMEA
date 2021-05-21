@@ -26,7 +26,7 @@ circuit published by <a href="http://berreizeta.blogspot.com/2016/09/seatalk-ard
  
 This can easily be built on Veroboard and the whole device assembled as:
  
-<img style="max-height:100px;" src="/Pictures/IMG_0612.JPG" />
+<img height="100" src="/Pictures/IMG_0612.JPG" />
  
 The Arduino is programmed via the USB connection and when connected to a SeaTalk 
 device can produce sentences such as:
