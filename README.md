@@ -2,7 +2,7 @@
 
 SeaTalk is a simple networking interface used by Raymarine to link their range of marine equipment 
 together so that data can be shared across all devices. Technology wise it is best described in a document 
-written by Thomas Knauf document found here:
+written by Thomas Knauf found here:
 <a href="http://www.thomasknauf.de/seatalk.htm">SeaTalk Technical Reference</a>.
 
 ## Hardware
