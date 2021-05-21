@@ -14,9 +14,10 @@
  *    exhibited as the wind speed being a factor of 2 out!
  *
  * May 7th, 2020 M.D.Waller
- * a) Bux fix. Jan Dytrych reported that the depthBelowTransducer calculate was wrong. 
- * It should be ((b[4] * 256 + b[3]) / 10) * FEET_TO_METERS, and not ((b[3] * 256 + b[4])
- * / 10) * FEET_TO_METERS
+ * a) Bux fix. Jan Dytrych reported that the depthBelowTransducer calculation was wrong. 
+ *    It should be:
+ *
+ *     ((b[4] * 256 + b[3]) / 10) * FEET_TO_METERS, and not ((b[3] * 256 + b[4]) * / 10) * FEET_TO_METERS
  */
 
 //#define DEBUG 1
@@ -1390,7 +1391,8 @@ void setup() {
 
   // Open the SeaTalk serial port.
   
-  Serial1.begin(HS_BAUD_RATE,true);
+  Serial1.begin(HS_BAUD_RATE,SERIAL_9N1);
+  //Serial1.begin(HS_BAUD_RATE,true);
 
   // Send the version sentence
 
@@ -1652,6 +1654,7 @@ void processCommand()
 
   commandBufferIndex = 0;
 }
+
 void loop() {
 
   // Do we have a command to be processed?
