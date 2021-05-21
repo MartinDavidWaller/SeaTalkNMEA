@@ -16,17 +16,17 @@ hardware serial ports. One port is accessed via the USB connection and the secon
 is available on the board. The intention being to read the SeaTalk data via the 
 on board serial port and make the NMEA data available via the USB.
  
-<img style="max-height:100px;" src="/Pictures/IMG_0611.JPG" />
+<img height="400" src="/Pictures/IMG_0611.JPG" />
  
 SeaTalk is a serial interface that uses a 12 volt signal line. To interface this
 to the Arduino it must be converted to TTL level, this can be done using the
 circuit published by <a href="http://berreizeta.blogspot.com/2016/09/seatalk-arduino-interface-5v-ttl-for_19.html">Berreizeta</a>:
 
-<img style="max-height:100px;" src="/Pictures/SeaTalk_12v_TTL.JPG" />
+<img src="/Pictures/SeaTalk_12v_TTL.JPG" />
  
 This can easily be built on Veroboard and the whole device assembled as:
  
-<img height="100" src="/Pictures/IMG_0612.JPG" />
+<img height="400" src="/Pictures/IMG_0612.JPG" />
  
 The Arduino is programmed via the USB connection and when connected to a SeaTalk 
 device can produce sentences such as:
