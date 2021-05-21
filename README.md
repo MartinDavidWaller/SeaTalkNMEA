@@ -7,13 +7,13 @@ written by Thomas Knauf found here:
 
 ## Hardware
 
-This hardware project is designed to read SeaTalk data and convert it to standard 
+The project is designed to read SeaTalk data and convert it to standard 
 <a href="https://en.wikipedia.org/wiki/NMEA_0183">NMEA 0183</a> data.
 Such devices are available commercially but can be very expensive. 
 The one manufactured by <a href="https://digitalyacht.co.uk/">Digital YACHT</a> is sold for £150 whereas
 the solution here can built for £10 - £20.
 
-The project is based around the Arduino Pro Micro. This device was chosen as it provided two
+It is based around the Arduino Pro Micro. This device was chosen as it provides two
 hardware serial ports. One port is accessed via the USB connection and the second
 is available on the board. The intention being to read the SeaTalk data via the 
 on board serial port and make the NMEA data available via the USB.
