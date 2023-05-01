@@ -39,6 +39,14 @@ use is made of a library supplied by <a href="https://forum.arduino.cc/u/nickgam
 <a href="https://forum.arduino.cc/t/mods-to-hardwareserial-to-handle-9-bit-data/89447">Mods to HardwareSerial to handle 9-bit data</a> that
 explains more. The most recent version of this HarwareSerial code can be found in the Source folder.
 
+Installing this is not that straight forward. You need to search for HarwareSerial.h in your Arduino IDE installation. With the Arduino
+IDE 2.1.0 this will typically be something like:
+
+C:\Users\marti\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\cores\arduino
+
+In there you will find 3 files HardwareSerial.h. HarwareSerial.cpp, and HarwareSerial_private.h. Save these files and
+copy in the 3 equivalent files from the HardwareSerial9bit source folder.
+
 By default, the NMEA talker ID generated is "GP". This can be changed by talking to the device via a simple terminal emulator such as
 <a href="https://www.putty.org/">PuTTY</a>, and sending it the Tcc command where the two characters cc represent the required talk ID. 
 This is stored in EEPROM so it only has to be done once.
