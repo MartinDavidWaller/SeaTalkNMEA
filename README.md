@@ -47,6 +47,10 @@ C:\Users\marti\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\cores
 In there you will find 3 files HardwareSerial.h. HarwareSerial.cpp, and HarwareSerial_private.h. Save these files and
 copy in the 3 equivalent files from the HardwareSerial9bit source folder.
 
+With the older Arduino IDE 1.* the same files are typcally located here:
+
+C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino
+
 By default, the NMEA talker ID generated is "GP". This can be changed by talking to the device via a simple terminal emulator such as
 <a href="https://www.putty.org/">PuTTY</a>, and sending it the Tcc command where the two characters cc represent the required talk ID. 
 This is stored in EEPROM so it only has to be done once.
